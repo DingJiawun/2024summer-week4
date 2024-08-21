@@ -1,0 +1,155 @@
+
+.color1 {
+    color: #AA0601;
+}
+.coloumn{
+    width: 100%;
+    text-align: center;
+}
+.optical-nav {
+    display: block;
+    border: 1px solid #DCDCDC;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 33.33%;
+}
+
+@media (max-width:767px) {
+    .optical-nav {
+        font-family: "Roboto", serif;
+        font-weight: 500;
+        font-size: 16px; 
+    }
+}
+
+.optical-nav:active {
+    border-bottom: 8px solid #AA0601;
+}
+
+.optical-nav:hover {
+    border-bottom: 8px solid #AA0601;
+}
+.banner{
+    height: 296px;
+    width: 100%;
+}
+
+.banner1{
+    width: 50%;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner2 {
+    width: 50%;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-2.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width:767px) {
+    .banner{
+        height: 136px; 
+        margin-bottom: 40px;
+    }
+    .banner1{
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true");
+    }
+    .banner2{
+        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true");
+    }
+}
+
+@media (max-width:767px) {
+   .optical-title1{
+    font-size: 24px;
+   } 
+   .optical-title2{
+    font-size: 24px;
+    margin-bottom: 24px;   
+} 
+}
+.card-list {
+    flex-wrap: wrap;
+    padding: 0 -12px;
+}
+
+.card {
+    width: 25%;
+    flex-direction: column;
+    padding: 0 12px;
+}
+@media (max-width:767px) {
+    .card{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+.product-img {
+    height: 168px;
+}
+@media (max-width:767px) {
+    .color-box{
+       padding-left: 32px;
+    }
+}
+
+.color-box1 {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #5F3E2D;
+    margin-right: 8px;
+}
+
+.color-box2 {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #B75929;
+}
+.page {
+    display: block;
+    color: #555555;
+    border: 1px solid #555555;
+    padding: 12px 16px;
+}
+
+.page:hover {
+    background-color: #F2F2F2;
+    color: #000;
+}
+
+.page:active {
+    background-color: #000;
+    color: #fff;
+}
+
+.page-updown {
+    display: block;
+    color: #555555;
+    border: 1px solid #555555;
+    padding: 11px 12px;
+}
+
+.page-updown:hover {
+    background-color: #F2F2F2;
+    color: #000;
+}
+
+.page-updown:active {
+    background-color: #000;
+    color: #fff;
+}
+@media (max-width:767px) {
+    .page{
+        font-size: 16px;
+        margin-bottom: 64px;
+    }
+    .page-updown{
+        font-size: 16px;
+        margin-bottom: 64px;
+    }
+}
+    
